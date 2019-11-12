@@ -631,6 +631,12 @@ pre code {
     margin-left: auto
 }
 
+.icon-btm{
+position: relative;
+top :20px;
+
+}
+
 .row {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4551,6 +4557,10 @@ input[type="button"].btn-block {
     -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 1.5rem 1rem
+}
+
+.networks{
+    word-spacing: 2em;
 }
 
 .navbar>.container,
