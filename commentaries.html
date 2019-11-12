@@ -1,0 +1,70 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bootswatch: Lux</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="bootstrap.min.css" media="screen">
+
+    <script>
+
+     var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-23019901-1']);
+      _gaq.push(['_setDomainName', "bootswatch.com"]);
+        _gaq.push(['_setAllowLinker', true]);
+      _gaq.push(['_trackPageview']);
+
+     (function() {
+       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+     })();
+
+    </script>
+
+  </head>
+
+  <body>
+
+
+<!--   Conteneur organisme commentaire
+ -->  
+ <div class="container bg-dark" style="width:220px">  
+ <!--  Conteneur profil -->
+  <div class="container">
+  <div class="media text-primary pt-3">
+      
+          <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray" style="color:#919aa1">
+            <img src="http://placehold.it/80x60" style="float: right;" > </img>
+            <strong class="d-block text-gray-dark" style= "color:red">@username</strong>
+            Commentary example. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+            <button type="button" class="btn btn-secondary btn-sm cardbtn" style="float: right">Info</button>
+          </p>
+        </div>
+      </div> <!-- Profil -->
+
+
+<!-- Conteneur formulaire commentaire -->
+
+<div class="container">
+  <form action="action_page.php">
+     <div class="row">
+       <div class="col-25">
+          <label for="subject">Subject</label>
+        </div>
+      <div class="col-75">
+        <textarea id="subject" name="Comment" placeholder="Write something.." style="height:100px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input class="button success" type="submit" value="Submit">
+    </div>
+   </form>
+  </div> <!--  Formulaire Commentaire -->
+
+</div> <!-- Organisme -->
+
+
+  </body>
+</html>
